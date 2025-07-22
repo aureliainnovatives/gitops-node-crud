@@ -3,7 +3,7 @@ name: CI/CD - Dev Deployment
 on:
   push:
     branches:
-      - main
+      - master
 
 env:
   IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/gitops-node-crud
