@@ -22,8 +22,8 @@ jobs:
       - name: Log in to DockerHub
         uses: docker/login-action@v3
         with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          username: aurelia.tech
+          password: dckr_pat_9pJtSQNNrF0yThLruCYGPJWKo0M
 
       - name: Extract version from package.json
         id: package-version
