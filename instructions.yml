@@ -1,2 +1,4 @@
 - npm install
 - node app/server.js
+- Create git repo and add secrets of docker 
+- 
