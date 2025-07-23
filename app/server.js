@@ -24,5 +24,5 @@ app.delete('/items/:index', (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log('Server running and on http://localhost:3000');
+  console.log('Some changes for dummy push Server running and on http://localhost:3000');
 });
